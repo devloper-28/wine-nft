@@ -1,0 +1,68 @@
+.User_profilepic {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.userwallet {
+  font-style: normal;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 12px;
+  line-height: 16px;
+}
+.User_name {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  line-height: 25px;
+}
+.subinfo_para {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 13px;
+  color: rgba(255, 255, 255, 0.72);
+}
+.subinfo_para_val {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #9075ff;
+}
+.subinfodivider {
+  border: 0.5px solid #a5a6a9;
+  width: 1px;
+  height: 45px;
+}
+.profiletab li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  color: #92929f;
+}
+.profiletab {
+  width: 50%;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+.profiledivider {
+  width: 100%;
+  height: 1px;
+  background-color: #92929f;
+}
+.selectedlist {
+  color: #fff !important;
+  border-bottom: 20px;
+}
+.selectedtab_divider {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  top: 16px;
+  background: #fff;
+}

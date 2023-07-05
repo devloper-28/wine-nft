@@ -1,0 +1,109 @@
+
+.lable {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: #FFFFFF;
+    position: absolute;
+    margin: 0;
+    top: 9px;
+}
+
+.lable-box {
+    position: relative;
+}
+.lable-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.top-cards-image {
+    max-width: 110px;
+    margin: auto;
+    position: relative;
+}
+.cards-wrap {
+    margin: 17px 0 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards-wrap p {
+    margin: 0;
+}
+.cards-price {
+    font-family: 'avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #A6A5FF;
+}
+.cards-bottle-value {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+.cards-id {
+    justify-content: center;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: rgba(255, 255, 255, 0.72);
+}
+.liner-between{
+        color: #979797;
+}
+.top-cards-details-box {
+    max-width: 170px;
+    margin: auto;
+}
+.other-top-cards {
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:500px) {
+    .top-cards-wrapper-container {
+        margin: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .top-cards-image {
+        max-width: 110px;
+        margin-left: 0;
+        position: relative;
+    }
+    .top-centered-cards-wrapper {
+        margin-top: 27px;
+        display: flex;
+        align-items: center;
+    }
+    .other-top-cards {
+        margin: 0px 10px 0;
+        align-items: stretch;
+        display: flex;
+        flex-direction: column;
+    }
+}

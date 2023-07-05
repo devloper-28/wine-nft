@@ -1,0 +1,41 @@
+.bids-recieved {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bids_wrapprBox {
+  margin-top: 40px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(100% / 4);
+}
+.accept_rejectSection {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+.accept_rejectSection .btn {
+  max-width: 110px;
+  width: 100%;
+}
+@media (max-width:1200px) {
+  .bids_wrapprBox {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(100% / 3);
+  }
+  
+}
+@media (max-width:1024px) {
+  .bids_wrapprBox {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(100% / 2);
+  }
+}
+@media (max-width:630px) {
+  .bids_wrapprBox {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(100% /1);
+  }
+}

@@ -1,0 +1,63 @@
+.react-loading-skeleton {
+    --base-color: #000;
+    --highlight-color: #1f1e1e;
+    --animation-duration: 1.5s;
+    --animation-direction: normal;
+    --pseudo-element-display: block;
+    background-color: var(--base-color);
+    width: 100%;
+    border-radius: 0.25rem;
+    display: inline-flex;
+    line-height: 1;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.skeleton-body {
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid #443e3e;
+    background-color: rgb(28, 26, 26);
+    border-radius: 4px;
+}
+
+.skeleton-space {
+    flex: 0 0 calc(100% / 4);
+    padding: 10px 15px;
+}
+.skeleton-container{
+    padding: 12px;
+}
+.skeleton-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+   margin:  -10px -15px;
+
+}
+.Epic-Rp-Loader {
+    margin-bottom: 12px;
+    justify-content: space-between;
+    display: flex;
+}
+.Epic-Rp-Loader span{
+   width: 60px;
+}
+.my-13{
+    margin: 13px 0;
+}
+
+@media (max-width: 992px) {
+    .skeleton-space {
+        flex: 0 0 calc(100% / 3);
+    }
+}
+@media (max-width: 768px) {
+    .skeleton-space {
+        flex: 0 0 calc(100% / 2);
+    }
+}
+@media (max-width: 500px) {
+    .skeleton-space {
+        flex: 0 0 calc(100% / 1);
+    }
+}

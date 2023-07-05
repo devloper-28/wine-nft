@@ -1,0 +1,6 @@
+.cell_wrapper_s{
+        margin-top: 40px;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: calc(100% / 4);
+}

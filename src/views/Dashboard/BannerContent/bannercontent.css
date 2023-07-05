@@ -1,0 +1,33 @@
+.bannerContent {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 32px;
+    height: 39px;
+}
+.banner_desc {
+    max-width: 450px;
+    width: 100%;
+    margin: 30px auto 0;
+}
+.banner_desc p{
+    color: #fff;
+font-weight: 600;
+font-size: 26px;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 0;
+}
+.banner_content{
+    font-family: 'avenir';
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #FBFBFB;
+max-width: 420px;
+margin: 25px auto 0;
+}
