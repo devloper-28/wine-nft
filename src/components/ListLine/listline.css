@@ -1,0 +1,55 @@
+.List-line{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 100px 0;
+}
+.List-line p{
+    margin-bottom: 0;
+}
+.full-list,.full-list:hover{
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 82.7%;
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.title-list {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.List-line hr{
+    border-top: 0.5px solid #92929F;
+    width: 60%;
+    margin: 1rem;
+}
+@media (max-width:992px) {
+    .List-line hr{
+        width: 50%;
+    }
+}
+@media (max-width:775px) {
+    .List-line hr{
+        width: 40%;
+    }
+}
+@media (max-width:660px) {
+    .List-line hr{
+        width: 25%;
+    }
+}
+@media (max-width:536px) {
+    .List-line hr{
+        display: none;
+    }
+    .title-list {
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+    }
+}

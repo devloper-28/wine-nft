@@ -1,0 +1,25 @@
+.modal .modal-content {
+	background: #9075ff;
+	border: 0px;
+	border-radius: 10px;
+	position: relative;
+	z-index: 1;
+}
+.modal .modal-content::before {
+	content: '';
+	display: block;
+	height: calc(100% - calc(2px * 2));
+	width: calc(100% - calc(2px * 2));
+	border-radius: calc(10px - 2px);
+	background: #060606;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	z-index: -1;
+}
+.bidmodal .modal-content {
+	padding: 20px 20px;
+}
+.bidmodal .modal-lg {
+	max-width: 650px;
+}

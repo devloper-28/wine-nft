@@ -1,0 +1,214 @@
+.cellars-card {
+  height: 310px;
+  width: 100%;
+  position: relative;
+  border-radius: 4px;
+}
+.cellars_card_img {
+  height: 310px;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.rarity_area {
+  padding: 12px;
+  position: absolute;
+  width: 100%;
+}
+
+.rp-value {
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+}
+.rarity-box {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+}
+.platinum-title {
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+}
+.bottle-box {
+  height: 330px;
+  width: 100%;
+  position: relative;
+  padding: 12px;
+  background-image: url('../../assets/images/white_bg.svg');
+  border-radius: 4px;
+}
+.centered-wine {
+  height: 85%;
+  left: 55%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+.wine-description {
+  margin-top: 12px;
+  font-family: 'Avenir';
+  font-weight: 400;
+  font-size: 14px;
+  color: #a5a6a9;
+}
+.owner-name {
+  font-family: 'avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #9075ff;
+}
+.value-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #a5a6a9;
+}
+.value {
+  font-family: 'avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+}
+.flex-50 {
+  flex: 50%;
+}
+
+.wine-brand-value {
+  margin-top: 12px;
+  display: flex;
+}
+.collection-bottle-card {
+  display: flex;
+  margin: -10px -15px;
+  flex-wrap: wrap;
+}
+.bottle-wrapper {
+  padding: 10px 15px;
+}
+.bottle-wrapper.active {
+  display: table;
+}
+
+.collection-wrapper {
+  margin-bottom: 80px;
+}
+/* pagination started */
+.txnHash,
+.timeStamp {
+  font-size: 14px;
+  margin-left: 30px;
+  margin-bottom: 4px;
+}
+.header_nav,
+.header_nav:hover {
+  text-decoration: none;
+  font-size: 24px;
+  color: #000;
+}
+.header_nav i {
+  margin-right: 15px;
+  color: #d4d1d1;
+}
+.grey_star {
+  height: 14px;
+  width: 16px;
+  margin-top: 3px;
+}
+.yellow_star {
+  height: 13px;
+  width: 13px;
+}
+
+.txnDetails.active {
+  position: absolute;
+  top: -17px;
+  display: block;
+}
+.txnDetails {
+  display: none;
+  width: 100%;
+}
+
+.version {
+  padding: 5px 10px;
+  background-color: #08384b;
+  width: fit-content;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-right: 36px;
+  margin-bottom: 4px;
+}
+/* Profile page and others tabs starts */
+.bids-of-user .btn {
+  max-width: 110px;
+  width: 100%;
+}
+.bidderImg {
+  margin-right: 14px;
+  height: 41px;
+  width: 41px;
+  border-radius: 50%;
+}
+.bids-of-user {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.bidder-name p {
+  font-family: 'Avenir';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+p.bid-ammnt {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ccf94a;
+}
+.bids-box-acpt-rejct {
+  margin-top: 17px;
+  background: #1f1f1f;
+  border-radius: 4px;
+}
+.bidStatus {
+  font-weight: 400;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 15px 0;
+  text-align: center;
+  border-top: 0.5px solid #a5a6a9;
+}
+.bidPending{
+  color: #FFFFFF;
+}
+.bidAccepted{
+  color: #00C9C9;
+}
+.bidRejected{
+  color: #ED3939;
+}
+/* Profile page and others tabs ends */
+/* Custom pagination */
+
+@media (max-width: 992px) {
+  .bottle-wrapper {
+    flex: 0 0 calc(100% / 3);
+  }
+}
+@media (max-width: 768px) {
+  .bottle-wrapper {
+    flex: 0 0 calc(100% / 2);
+  }
+}
+@media (max-width: 500px) {
+  .bottle-wrapper {
+    flex: 0 0 calc(100% / 1);
+  }
+}

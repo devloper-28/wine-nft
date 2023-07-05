@@ -1,0 +1,55 @@
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #1F1F1F;
+}
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+    opacity: 1;
+}
+.slick-prev:before {
+    content: '';
+    background-image: url("../../../assets/images/slickLeft.svg");
+    height: 14px;
+    display: block;
+    width: 8px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+.slick-next:before{
+    content: '';
+    background-image: url("../../../assets/images/slickRight.svg");
+    height: 14px;
+    display: block;
+    width: 8px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: unset;
+    outline: none;
+    background-color: unset;
+}
+#slick .slick-prev,#slick .slick-next{
+    background-color: #1f1f1f;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    z-index: 10;
+}
+.slick-prev {
+    left: -15px;
+}
+.slick-next {
+    right: -15px;
+}
+
+/* 8 collection css */
+
+#abcd {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}

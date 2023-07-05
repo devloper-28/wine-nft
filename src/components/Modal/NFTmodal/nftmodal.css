@@ -1,0 +1,96 @@
+/* bid modal css */
+.bidmodal-wrapper {
+	width: 80%;
+	margin: 20px auto;
+}
+.nft-img img {
+	width: 86px;
+	height: 200px;
+}
+.nft-info {
+	padding: 29px 46px;
+}
+.submitbtn {
+	background: #32254f;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	width: 100%;
+	gap: 10px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 12px;
+	color: #ffffff;
+}
+.nft-info h4 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 21px;
+	/* identical to box height */
+
+	color: #ffffff;
+}
+.bidcontainer {
+	width: 85%;
+	margin: auto;
+	justify-content: space-between;
+}
+.nft-info-text {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 5px;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+.info_title {
+	margin-bottom: 0;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 20px;
+	color: #929292;
+}
+.nft_price {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	/* identical to box height, or 120% */
+	margin-bottom: 0;
+
+	text-align: center;
+
+	color: #ccf94a;
+}
+.nft_currency {
+	font-style: normal;
+	font-weight: 500;
+	color: white;
+	font-size: 15px;
+	line-height: 24px;
+	background: #1f1f1f;
+	border: 1px solid #a5a6a9;
+	border-radius: 19.5px;
+	padding: 12px 11px;
+}
+.nft_price_input {
+	border: 1px solid #a5a6a9;
+	border-radius: 19.5px;
+	padding: 11px 28px;
+	width: 58%;
+}
+.Listed_price {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 24px;
+	text-align: left;
+	letter-spacing: -0.035em;
+	color: #ffffff;
+	margin-bottom: 0;
+}

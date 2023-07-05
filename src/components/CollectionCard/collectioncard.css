@@ -1,0 +1,246 @@
+.rp-value {
+  font-weight: 600;
+  font-size: 15px;
+  color: #000000;
+}
+.platinum-title {
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 15px;
+  letter-spacing: -0.03em;
+  color: #353535;
+}
+.bottle-box {
+  height: 330px;
+  width: 100%;
+  position: relative;
+  padding: 12px;
+ background-image: url("../../assets/images/white_bg.svg");
+  border-radius: 4px;
+}
+.centered-wine {
+  height: 85%;
+  left: 55%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+.wine-description {
+  margin: 13px 0;
+  font-family: "avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+}
+.owner-name {
+  font-family: "avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #9075ff;
+}
+.value-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #a5a6a9;
+}
+.value {
+  font-family: "avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+}
+.flex-50 {
+  flex: 50%;
+}
+
+.wine-brand-value {
+  display: flex;
+}
+.collection-bottle-card {
+  display: flex;
+  margin: -10px -15px;
+  flex-wrap: wrap;
+}
+.bottle-wrapper {
+  /* display: none; */
+  margin-top: 40px;
+  padding: 10px 15px;
+  flex: 0 0 calc(100% / 4);
+}
+.bottle-wrapper.active {
+  display: table;
+}
+
+.collection-wrapper {
+  margin-bottom: 80px;
+}
+/* pagination started */
+.txnHash,
+.timeStamp {
+  font-size: 14px;
+  margin-left: 30px;
+  margin-bottom: 4px;
+}
+.header_nav,
+.header_nav:hover {
+  text-decoration: none;
+  font-size: 24px;
+  color: #000;
+}
+.header_nav i {
+  margin-right: 15px;
+  color: #d4d1d1;
+}
+.grey_star {
+  height: 14px;
+  width: 16px;
+  margin-top: 3px;
+}
+table {
+  display: none;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 48%;
+  margin: 5% 1% 2%;
+  float: left;
+}
+table.active {
+  display: table;
+}
+/* table:nth-child(odd) {
+    margin-right: 2%;
+} */
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 50%;
+}
+
+tr td:nth-child(odd) {
+  color: #9a9696;
+}
+/* tr td:nth-child(even) {
+    font-weight: bold;
+} */
+.pagination {
+  list-style: none;
+  float: right;
+  margin-right: 2%;
+}
+.pagination .page {
+  display: inline-block;
+  padding: 4px 15px;
+  border: 1px solid #efefef;
+  cursor: pointer;
+}
+.page.active {
+  background-color: #efefef;
+}
+.txnDetails.active {
+  position: absolute;
+  top: -17px;
+  display: block;
+}
+.txnDetails {
+  display: none;
+  width: 100%;
+}
+
+.version {
+  padding: 5px 10px;
+  background-color: #08384b;
+  width: fit-content;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-right: 36px;
+  margin-bottom: 4px;
+}
+/* Custom pagination */
+.custom-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 100%;
+  margin: 60px auto 30px;
+}
+.custom-pagination button,.custom-pagination p{
+  font-family: "avenir";
+  font-size: 18px;
+  border: 0;
+
+}
+.custom-pagination button:disabled {
+  background-color: unset !important;
+  border: 0;
+  /* color: #7c7676 !important; */
+}
+
+/* pagination ended */
+@media (max-width: 992px) {
+  .bottle-wrapper {
+    flex: 0 0 calc(100% / 3);
+  }
+}
+@media (max-width: 768px) {
+  .bottle-wrapper {
+    flex: 0 0 calc(100% / 2);
+  }
+}
+@media (max-width: 500px) {
+  .bottle-wrapper {
+    flex: 0 0 calc(100% / 1);
+  }
+}
+
+/* skeleton */
+/* .skeleton{
+  margin: -10px -15px;
+}
+.skeleton__container {
+  padding: 10px 15px;
+  width: 327px;
+
+}
+.skeleton__main {
+  margin-top: 40px; 
+  height: 330px;
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  animation: skeleton-loading 1s linear infinite alternate;
+  opacity: .7;
+}
+.skeleton__name {
+  width: 100%;
+  height: 20px;
+  margin: 14px 0;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  animation: skeleton-loading 1s linear infinite alternate;
+  opacity: .7;
+}
+.skeleton__price {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+    animation: skeleton-loading 1s linear infinite alternate;
+  opacity: .7;
+}
+
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: rgba(51, 51, 51, 0.4);
+  }
+  100% {
+    background-color: rgba(51, 51, 51, 0.9);
+  }
+} */

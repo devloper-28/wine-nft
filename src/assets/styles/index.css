@@ -1,0 +1,41 @@
+.token {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-top: 50px;
+  transition: all 0.2s;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.text-capital {
+  text-transform: uppercase;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+.logout {
+  margin-left: 10px;
+}
+p {
+  margin-bottom: 0;
+}
+.color-white {
+  color: white !important;
+}
+@media (max-width:650px) {
+  .wrapper {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+}
